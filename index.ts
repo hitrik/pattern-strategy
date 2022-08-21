@@ -72,7 +72,7 @@ function init() {
     alien.setBehavior(swimAbility);
 
     man.movable.move(man.name);
-    alien.movable.move(man.name);
+    alien.movable.move(alien.name);
   }, 3000);
 }
 
